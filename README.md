@@ -3,9 +3,9 @@
 Remote MCP server that scores business ideas on six live market signals. Run an Idea X-Ray from Claude, Cursor or any MCP client and get a Launch Readiness Score (LRS) across demand, pain, competition, monetisation, timing and distribution, plus search over thousands of already-scored ideas.
 
 - Endpoint: `https://fluenta.space/backend/api/v1/mcp` (Streamable HTTP, JSON-RPC 2.0)
-- Docs: https://fluenta.space/docs/api-and-mcp
-- OpenAPI: https://fluenta.space/backend/api/v1/ext/openapi.json
-- Website: https://fluenta.space
+- Docs: [fluenta.space/docs/api-and-mcp](https://fluenta.space/docs/api-and-mcp)
+- OpenAPI: [openapi.json](https://fluenta.space/backend/api/v1/ext/openapi.json)
+- Website: [fluenta.space](https://fluenta.space)
 
 This repository holds the registry manifest (`server.json`) and the integration notes. The server itself is hosted by Fluenta; there is nothing to install or run locally.
 
@@ -22,7 +22,7 @@ This repository holds the registry manifest (`server.json`) and the integration 
 
 ## Authentication
 
-Create an API key in your Fluenta account (Settings, API keys). Two scopes:
+Create an API key in your Fluenta account ([Settings, API keys](https://fluenta.space/app/settings/api-keys)). Two scopes:
 
 - `read`: search ideas, read analyses, list collections, read pipeline and usage.
 - `read_write`: everything in `read`, plus submit X-Ray analyses and add or remove pipeline bookmarks.
@@ -49,7 +49,7 @@ Config location: `~/Library/Application Support/Claude/` on macOS, `%APPDATA%\Cl
 
 ## Cursor
 
-Same JSON in `~/.cursor/mcp.json`, or use the one-click install button on the docs page.
+Same JSON in `~/.cursor/mcp.json`, or use the one-click install button on the [docs page](https://fluenta.space/docs/api-and-mcp).
 
 ## Claude Code
 
@@ -73,4 +73,4 @@ Published to the official MCP Registry as `io.github.Fluenta-Team/fluenta` from 
 
 ## Licence
 
-MIT for the contents of this repository. Use of the hosted service is governed by the Fluenta Terms of Service at https://fluenta.space/terms-of-service.
+MIT for the contents of this repository. Use of the hosted service is governed by the [Fluenta Terms of Service](https://fluenta.space/terms-of-service).
