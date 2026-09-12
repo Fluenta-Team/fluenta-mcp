@@ -69,7 +69,7 @@ Standard HTTP codes. 401 is a bad or revoked key, 402 is out of credits or key l
 
 ## Registry
 
-Published to the official MCP Registry as `io.github.fluenta-team/fluenta` from the `server.json` in this repository.
+Published to the official MCP Registry as `io.github.Fluenta-Team/fluenta` from the `server.json` in this repository.
 
 ## Licence
 

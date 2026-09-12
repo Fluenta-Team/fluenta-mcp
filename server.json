@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.fluenta-team/fluenta",
+  "name": "io.github.Fluenta-Team/fluenta",
   "description": "Score business ideas on six live market signals. Launch Readiness Score (LRS) for AI agents.",
   "version": "1.0.0",
   "websiteUrl": "https://fluenta.space/docs/api-and-mcp",
